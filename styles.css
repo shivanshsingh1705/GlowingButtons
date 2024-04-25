@@ -1,0 +1,27 @@
+.button{
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid black; */
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+    
+    
+}
+
+.button:hover{
+    box-shadow:0 0 20px 5px #00fffc;
+    background-color: #00fffc;
+    color: #000;
+    transition: 0.3s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+}
